@@ -1,0 +1,15 @@
+from turtle import *
+
+shape("turtle")
+shapesize(3, 3)
+width(5)
+speed(1)
+color("purple")
+left(90)
+
+for k in range(1, 24):
+	forward(k * 10)
+	right(90)
+	forward((k + 1) * 10)
+	right(90)
+  
